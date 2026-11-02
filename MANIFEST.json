@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "prepared_on": "2026-11-02",
+  "scope": "S1",
+  "publication_status": "local_candidate_not_uploaded",
+  "permissions_status": "pending_maintainer_review",
+  "manifest_hash_exclusions": [
+    "MANIFEST.json",
+    "SHA256SUMS"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 77,
+      "sha256": "f94a1d02df27e69debc2f1990aa05f18843509b3395bac6482cf9ab5505d1a49"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 51,
+      "sha256": "60ce3056275e8566c77199e343c0c80926023d70051a1d017fc49b9d0c79488c"
+    },
+    {
+      "path": "CITATION.bib",
+      "bytes": 387,
+      "sha256": "cdc5dda0012d099fd561c2cedf27a7ebfaf526c827264ad1d84c36f55b3e5ebf"
+    },
+    {
+      "path": "FILE_LIST.txt",
+      "bytes": 584,
+      "sha256": "b552939c80148a5241079de26080077ec7d35df48ef0fc4b985a8551b83ae7e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4812,
+      "sha256": "88bc5b8168a5f9f6f84ca6e6c69c034dcc80012af2faaa0f12b76f05058aa31f"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.0.0.md",
+      "bytes": 1494,
+      "sha256": "b4c30c60f272bfc10258102b73e9f4dd727384de6a49bc02ea043584ab178ca0"
+    },
+    {
+      "path": "RIGHTS_AND_PERMISSIONS.md",
+      "bytes": 1556,
+      "sha256": "09604a4efabf70363ded032013d61766e1540dd1ae80ae96354b312cf3fa3146"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1347,
+      "sha256": "f734404cc60af245dad6f9d9dcf7e1bf4384aab8b0dbf3c2d3c1d05c80fb8f29"
+    },
+    {
+      "path": "code/integrity.py",
+      "bytes": 2921,
+      "sha256": "d59b82ebb3d0dc6aec44f58944edec4853599715fa9d5a065cd265141d6e4774"
+    },
+    {
+      "path": "code/main.py",
+      "bytes": 2240,
+      "sha256": "6ee81c02058d860ccb6a4e7ba16490aa693ce52e6b12472cce543357762ee5b9"
+    },
+    {
+      "path": "code/tables.py",
+      "bytes": 274,
+      "sha256": "7ee4d8461897319e3e16a135df025ea41fb6736dde55f55560439838453c1596"
+    },
+    {
+      "path": "code/utils.py",
+      "bytes": 1206,
+      "sha256": "ad464ea67a219d4d35d727c83340f6d8070be0f5acdbd5617401d8231bde4d56"
+    },
+    {
+      "path": "code/verify.py",
+      "bytes": 10264,
+      "sha256": "3f6dc5a45bc1a7fa082041d1662800fd6ba8a2c0990dcac75a4f46ed1dcab206"
+    },
+    {
+      "path": "data/p2_b_boundary_summary.csv",
+      "bytes": 459,
+      "sha256": "f88e244a21e9cdf8fb57cce221cea8e8420dd0912a522a242e315e4e995f744c"
+    },
+    {
+      "path": "data/p2_benign_suite_12apps.csv",
+      "bytes": 855,
+      "sha256": "1d6b29f4f542cc138d12595404d6cae86a95146bcc8782cb45f0381b4ace41d3"
+    },
+    {
+      "path": "data/p2_formal_runs_19.csv",
+      "bytes": 3980,
+      "sha256": "0331ef64524539204fe8f4942cc22920f1501ea52cbff8469143a47e84d813f5"
+    },
+    {
+      "path": "data/p2_rule_corpus_summary.csv",
+      "bytes": 123,
+      "sha256": "39a17155337f3a7a610e174758e2d54a05985cdedc00e49e16e7d70875fd7069"
+    },
+    {
+      "path": "data/p2_rule_frame_summary.csv",
+      "bytes": 254,
+      "sha256": "c190a9dee63ef66199dbd6830fe4c76e774dd97e7280f24905c7a6bee7837729"
+    },
+    {
+      "path": "data/p2_source_layer_summary.csv",
+      "bytes": 251,
+      "sha256": "24b116c5b7da7d5aac022b6a4de5af9d5069378d52dcfdd857deaf606c3e2c20"
+    },
+    {
+      "path": "data/reported_summary.json",
+      "bytes": 1787,
+      "sha256": "0919e2106f4b68b030f4f0bcd054db77a6bc557be1a773e89a6f5cb796eb3c42"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 5657,
+      "sha256": "d018cd5f3fe2db44f3102eab8fe3fab8a5f081bf50fdb75abfdc44e4ccf6d6e1"
+    },
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "bytes": 1570,
+      "sha256": "0898c6cd90788281709fbadddb7583cd0a64d5fcf9a68e47f68932912cf0b46e"
+    },
+    {
+      "path": "docs/METHOD_AND_LIMITATIONS.md",
+      "bytes": 3134,
+      "sha256": "759a4c0693f4b78cda7288d39a5e453ba6e9afe948b453a8d271e88c1112317c"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 2203,
+      "sha256": "2f54bdba7da8958a50689cc86f4aacd8ea673f0250f71c9f6c00e441d59213d9"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 2569,
+      "sha256": "515477b1d248a97295efbe91853bc6a352c8fdf50b6c67367dc0e0b21b34b763"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 62,
+      "sha256": "8423eac420d6bc097ec56232d670e22fd46f4fb5248bc656140525967b1fbf0f"
+    }
+  ]
+}

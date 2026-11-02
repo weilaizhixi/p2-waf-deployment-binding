@@ -1,0 +1,15 @@
+# Method and limitations
+
+A rule exhibits deployment binding when a decisive matching predicate depends on a deployment-selected path, host, application field/value, object name, or representation rather than only an attack pattern or protocol constant. The study treats a validation conclusion as scoped to a rule, deployment applicability conditions, and declared benign tasks.
+
+Source qualification combines four conditions: the attack effect is observed without the rule; the rule blocks that effect; declared benign tasks still succeed; and measurement validity and triggering-rule attribution are established. Rule bytes are fixed before the target change. HTTP denial alone does not establish that a vulnerability effect was blocked. An ineligible source arm must not be interpreted as an ineffective target rule.
+
+The confirmation set contains 19 runs across 12 application clusters and is purposefully selected. Ten of 19 runs are non-production cases. The examples demonstrate behavior under declared deployment changes, rather than production-wide rates. Sixteen source-qualified payload runs retain blocking under the executed changes; no broader guarantee follows.
+
+Rule-source frames are purposefully selected and the community frame is concentrated: one repository supplies 78% of its corpus rules and 35/40 of its directive sample. Frame-specific Wilson intervals describe sample proportions, not a population interval. Directive-local counts are primary; chain counts provide sensitivity analysis. F3 changes by 27.5 percentage points and is reported as a range. This artifact provides only group totals, not expert annotation material. It does not compute annotator agreement, weighted pooling, or bootstrap uncertainty.
+
+Benign suites cover a finite set of declared tasks, weaker than a complete business workflow. Expanding those tasks reveals three PocketBase failures. The prior source-gate label must not be overwritten to hide these failures. Stock/tuned failures total six cells. The invalid GeoServer A01 suite remains excluded; the 15-cell GeoServer row represents valid A02 data.
+
+B is secondary analysis. Its v2 feature design uses MinIO as development material; the PocketBase file confirmation is another task within an already used application cluster. The prespecified model-beats-literal criterion is unmet (4/4 versus 4/4). The seven-run 40-row results include development data and remain descriptive.
+
+Source categories are not independent authors. The recorded ladder is 8/8 with at least one qualified case, 7/8 with at least three qualified rules/sets, 5/8 with at least three qualified applications, and 2/8 independent of the project team. Qualification units vary. The 22 source-layer runs reuse formal applications. S6 shares the stock CRS lineage. Advisory-shaped S7 rules preserve only the benign tasks actually executed: the Shiro task did not exercise a legitimate long cookie, the GeoServer task did not use the matched parameter, and the Solr task used a different handler. S8's independence is self-declared and not third-party verified. Its original materials are not redistributed.

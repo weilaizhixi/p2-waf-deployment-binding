@@ -1,0 +1,7 @@
+frame,analysis_unit,binding_count,units,share_pct,wilson_lower_pct,wilson_upper_pct
+F1,directive,0,40,0,0,8.8
+F2,directive,27,40,67.5,52,79.9
+F3,directive,19,40,47.5,32.9,62.5
+F1,chain,0,40,0,0,8.8
+F2,chain,26,39,66.7,51,79.4
+F3,chain,30,40,75,59.8,85.8

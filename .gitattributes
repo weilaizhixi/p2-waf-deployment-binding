@@ -1,0 +1,2 @@
+# Preserve shipped bytes, including the two original CRLF CSV files.
+* -text

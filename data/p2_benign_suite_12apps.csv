@@ -1,0 +1,14 @@
+application,cells,frozen_rule_fp,stock_or_tuned_fp,note
+GeoServer,15,0,3,stock blocks GetCapabilities (932260/949110) in three contexts
+Zeppelin,10,0,3,stock x2 + S6 tuned after context rename (911100/932370/949110)
+Shiro,8,0,0,"stock source-ineligible, benign-preserving"
+Solr,8,0,0,stock source-ineligible
+Node-RED,8,0,0,stock source-ineligible
+Apprise,8,0,0,stock source-ineligible
+MinIO,8,0,0,stock source-ineligible
+PocketBase,8,3,0,own-tenant read tenant_b; endpoint + payload rules
+Consul,6,0,0,"stock source-ineligible, benign-preserving"
+OpenSearch,8,0,0,stock source-ineligible; Elasticsearch fork
+bWAPP (5 families),40,0,0,stock blocks traversal/SQLi/LFI/XPath; redirect source-ineligible
+Mutillidae,8,0,0,"stock blocks XXE, benign-preserving"
+TOTAL,135,3,6,sum of the twelve application rows; excludes E-GEOSERVER-A01 (15 cells)

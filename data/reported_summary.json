@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "artifact_version": "1.0.0",
+  "formal": {
+    "runs": 19,
+    "application_clusters": 12,
+    "cells": 155,
+    "http_rows": 1085,
+    "effect_families": 18,
+    "endpoint_counterexample_runs": 19,
+    "payload_qualified_runs": 16,
+    "payload_no_counterexample_runs": 16,
+    "stock_qualified_runs": 5
+  },
+  "benign": {
+    "applications": 12,
+    "cells": 135,
+    "executions": 546,
+    "frozen_fp_cells": 3,
+    "stock_or_tuned_fp_cells": 6
+  },
+  "corpus": {
+    "repositories": 47,
+    "unique_files": 171,
+    "rules": 6892
+  },
+  "frame_headline": {
+    "F1": "0/40",
+    "F2": "27/40",
+    "F3": "19-30/40 (47.5-75.0%); directive-to-chain sensitivity range"
+  },
+  "b": {
+    "confirmatory_v2_correct": 4,
+    "confirmatory_literal_correct": 4,
+    "confirmatory_total": 4,
+    "superiority_criterion_met": false,
+    "descriptive_mutation_rows": 40,
+    "descriptive_runs": 7,
+    "descriptive_applications": 6
+  },
+  "source_layer": {
+    "runs": 22,
+    "cells": 88,
+    "http_rows": 672,
+    "qualified_mixed_units": 16,
+    "counterexamples_mixed_units": 6,
+    "no_counterexamples_mixed_units": 10,
+    "categories_with_at_least_one_qualified_case": "8/8",
+    "categories_with_at_least_three_qualified_rules_or_sets": "7/8",
+    "categories_with_at_least_three_qualified_applications": "5/8",
+    "categories_independent_of_project_team": "2/8"
+  },
+  "verification_limits": [
+    "Aggregate counts do not reconstruct individual annotations or raw HTTP observations.",
+    "HTTP-row counts, benign executions, unique corpus files, and source qualification ladders are transcribed reference values, not recomputed from raw records in S1.",
+    "B training, predictions, bootstrap intervals, and annotator agreement are not reproduced."
+  ]
+}

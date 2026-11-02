@@ -1,0 +1,13 @@
+evaluation,method,correct,total
+confirmatory_A01,v2_model,4,4
+confirmatory_A01,v1_model,3,4
+confirmatory_A01,literal,4,4
+confirmatory_A01,exact_anchor,4,4
+confirmatory_A01,class_endpoint,2,4
+confirmatory_A01,object_key,2,4
+seven_run_descriptive,v2_model,40,40
+seven_run_descriptive,v1_model,38,40
+seven_run_descriptive,literal,29,40
+seven_run_descriptive,exact_anchor,36,40
+seven_run_descriptive,class_endpoint,18,40
+seven_run_descriptive,source_replay,31,40
